@@ -1,3 +1,6 @@
+import logger
+logger.logger_init()
+
 class Sprite:
     def __init__(self, x, y, name):
         self.x = x
@@ -46,13 +49,10 @@ level_map_controller = MapController(level_map)
 while True:
     print("\n\n\n\n\n\n")
     print(player1.x, player1.y)
-    print(level_map)
-    print(player_map)
     print()
     
     for y in range(6):
         for x in range(6):
-            print(y, x)
             if level_map_controller.get_value(x, y) != "0":
                 player_map_controller.set_value(x, y, level_map_controller.get_value(x, y))
             
@@ -62,8 +62,6 @@ while True:
             print(j+" ", end="")
         print()
 
-    print(level_map)
-    print(player_map)
 
 
 
