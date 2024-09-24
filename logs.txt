@@ -1,2 +1,2 @@
-2024-09-24 17:25:47 | INIT | /workspaces/cli-rpg/main.py:<module>:2 - LOGGER INITIALIZED 
-2024-09-24 17:26:21 | INIT | /workspaces/cli-rpg/main.py:<module>:2 - LOGGER INITIALIZED 
+2024-09-24 17:44:45 | INIT | /workspaces/cli-rpg/main.py:<module>:2 - LOGGER INITIALIZED 
+2024-09-24 17:44:45 | DEBUG | /workspaces/cli-rpg/main.py:<module>:51 - X: 2 Y:3

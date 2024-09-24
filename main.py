@@ -45,41 +45,58 @@ player_map = [
 player_map_controller = MapController(player_map)
 level_map_controller = MapController(level_map)
 
-
-while True:
-    print("\n\n\n\n\n\n")
-    print(player1.x, player1.y)
-    print()
-    
-    for y in range(6):
-        for x in range(6):
-            if level_map_controller.get_value(x, y) != "0":
-                player_map_controller.set_value(x, y, level_map_controller.get_value(x, y))
-            
-    player_map_controller.set_value(player1.x, player1.y, "1")
-    for i in player_map_controller.get_map():
-        for j in i:
-            print(j+" ", end="")
+try:
+    while True:
+        print("\n\n\n\n\n\n")
+        logger.log(f"X: {player1.x} Y:{player1.y}")
         print()
 
+        if player1.x == 6:
+            player1.x -= 1
+        elif player1.x == -1:
+            player1.x += 1
 
+        if player1.y == -1:
+            player1.y += 1
 
-
-    move = input(": ")
+        if player1.y == 6:
+            player1.y -= 1
         
-    if move == "w":
-        player_map_controller.set_value(player1.x, player1.y, level_map_controller.get_value(player1.x, player1.y))
-        player1.y -= 1
-        
-    elif move == "a":
-        player_map_controller.set_value(player1.x, player1.y, level_map_controller.get_value(player1.x, player1.y))
-        player1.x -= 1
-    elif move == "s":
-        player_map_controller.set_value(player1.x, player1.y, level_map_controller.get_value(player1.x, player1.y))
-        player1.y += 1
-    elif move == "d":
-        player_map_controller.set_value(player1.x, player1.y, level_map_controller.get_value(player1.x, player1.y))
-        player1.x += 1
+        for y in range(6):
+            for x in range(6):
+                if level_map_controller.get_value(x, y) != "0":
+                    player_map_controller.set_value(x, y, level_map_controller.get_value(x, y))
+                
+        player_map_controller.set_value(player1.x, player1.y, "1")
+        for i in player_map_controller.get_map():
+            for j in i:
+                print(j+" ", end="")
+            print()
+
+
+
+
+        move = input(": ")
+            
+        if move == "w":
+            player_map_controller.set_value(player1.x, player1.y, level_map_controller.get_value(player1.x, player1.y))
+            player1.y -= 1
+            logger.log("W KEY PRESSED")
+            
+        elif move == "a":
+            player_map_controller.set_value(player1.x, player1.y, level_map_controller.get_value(player1.x, player1.y))
+            player1.x -= 1
+            logger.log("A KEY PRESSED")
+        elif move == "s":
+            player_map_controller.set_value(player1.x, player1.y, level_map_controller.get_value(player1.x, player1.y))
+            player1.y += 1
+            logger.log("S KEY PRESSED")
+        elif move == "d":
+            player_map_controller.set_value(player1.x, player1.y, level_map_controller.get_value(player1.x, player1.y))
+            player1.x += 1
+            logger.log("D KEY PRESSED")
+except:
+    logger.log("PROGRAM EXIT")
         
     
     

@@ -5,6 +5,7 @@ Description:
 """
 import time
 import sys
+import os
 
 """Logger init function.
 
@@ -12,6 +13,12 @@ Keyword arguments:
 Return: prints initialization information and writes to log
 """
 def logger_init():
+    with open("logs.txt", "r") as f:
+        lines = f.readlines()
+        if len(lines) > 200:
+            os.remove("logs.txt")
+            f = open("logs.txt", "w")   
+
     # All time data
     named_tuple = time.localtime()
     
