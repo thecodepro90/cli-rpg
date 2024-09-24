@@ -43,7 +43,7 @@ message -- log message: string
 log_file -- where to write log: string (file, console, both)
 Return: prints the debug message in console or in log based on log_file variable
 """
-def log(message, log_file):
+def log(message):
     # All time data
     named_tuple = time.localtime()
     
@@ -62,20 +62,8 @@ def log(message, log_file):
     # Full string: year-month-day hour:minute:second | DEBUG | filename:function_name:line_number - LOGGER INITIALIZED
     full_string = time_string + " "+"| DEBUG |"+" "+filename+":"+function_name+":"+str(line_number)+" - "+message
     
-    # If log_file equals 'file'
-    if log_file == "file":
-        # Write full string to file
-        with open("logs.txt", "a") as f:
-            f.write(full_string+"\n")
-            
-    # If log_file equals console print full string
-    elif log_file == "console":
-        print(full_string)
-        
-    # If log_file equals both then print and write to file
-    elif log_file == "both":
-        with open("logs.txt", "a") as f:
-            f.write(full_string+"\n")
+    with open("logs.txt", "a") as f:
+        f.write(full_string+"\n")
             
         print(full_string)
     
