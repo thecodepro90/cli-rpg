@@ -38,18 +38,9 @@ player_map = [
     ["0","0","0","0","0","0"],
 ]
 
-visual_map = [
-    ["0","0","0","0","0","0"],
-    ["0","0","0","0","0","0"],
-    ["0","0","0","0","0","0"],
-    ["0","0","0","0","0","0"],
-    ["0","0","0","0","0","0"],
-    ["0","0","0","0","0","0"],
-]
 
 player_map_controller = MapController(player_map)
 level_map_controller = MapController(level_map)
-visual_map_controller = MapController(visual_map)
 
 
 while True:
@@ -58,11 +49,15 @@ while True:
     print(level_map)
     print(player_map)
     print()
+    
+    for y in range(6):
+        for x in range(6):
+            print(y, x)
+            if level_map_controller.get_value(x, y) != "0":
+                player_map_controller.set_value(x, y, level_map_controller.get_value(x, y))
+            
     player_map_controller.set_value(player1.x, player1.y, "1")
-
-
-
-    for i in level_map_controller.get_map():
+    for i in player_map_controller.get_map():
         for j in i:
             print(j+" ", end="")
         print()
