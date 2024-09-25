@@ -1,2 +1,161 @@
 2024-09-24 17:44:45 | INIT | /workspaces/cli-rpg/main.py:<module>:2 - LOGGER INITIALIZED 
 2024-09-24 17:44:45 | DEBUG | /workspaces/cli-rpg/main.py:<module>:51 - X: 2 Y:3
+2024-09-24 20:07:54 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:2 - LOGGER INITIALIZED 
+2024-09-24 20:07:54 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - X: 2 Y:3
+2024-09-24 20:07:55 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:93 - S KEY PRESSED
+2024-09-24 20:07:55 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - X: 2 Y:4
+2024-09-24 20:07:56 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:97 - D KEY PRESSED
+2024-09-24 20:07:56 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - X: 3 Y:4
+2024-09-24 20:07:56 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:84 - W KEY PRESSED
+2024-09-24 20:07:56 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - X: 3 Y:3
+2024-09-24 20:07:56 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:84 - W KEY PRESSED
+2024-09-24 20:07:56 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - X: 3 Y:2
+2024-09-24 20:07:57 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:84 - W KEY PRESSED
+2024-09-24 20:07:57 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - X: 3 Y:1
+2024-09-24 20:07:57 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:89 - A KEY PRESSED
+2024-09-24 20:07:57 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - X: 2 Y:1
+2024-09-24 20:07:57 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:89 - A KEY PRESSED
+2024-09-24 20:07:57 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - X: 1 Y:1
+2024-09-24 20:07:58 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:93 - S KEY PRESSED
+2024-09-24 20:07:58 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - X: 1 Y:2
+2024-09-24 20:07:58 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:93 - S KEY PRESSED
+2024-09-24 20:07:58 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - X: 1 Y:3
+2024-09-24 20:07:59 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:97 - D KEY PRESSED
+2024-09-24 20:07:59 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - X: 2 Y:3
+2024-09-24 20:08:00 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:99 - PROGRAM EXIT
+2024-09-24 20:28:07 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:28:07 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:56 - X: 2 Y:3 
+
+2024-09-24 20:28:09 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:104 - PROGRAM EXIT 
+
+2024-09-24 20:29:52 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:29:52 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:57 - X: 2 Y:3 
+
+2024-09-24 20:29:53 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:105 - PROGRAM EXIT 
+
+2024-09-24 20:29:54 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:29:54 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:57 - X: 2 Y:3 
+
+2024-09-24 20:29:55 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:105 - PROGRAM EXIT 
+
+2024-09-24 20:33:52 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:34:22 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:34:22 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:59 - X: 2 Y:3 
+
+2024-09-24 20:34:23 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:107 - PROGRAM EXIT 
+
+2024-09-24 20:34:28 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:34:28 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:59 - X: 2 Y:3 
+
+2024-09-24 20:34:29 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:107 - PROGRAM EXIT 
+
+2024-09-24 20:35:04 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:35:04 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:52 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:35:04 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:60 - X: 2 Y:3 
+
+2024-09-24 20:36:15 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:108 - PROGRAM EXIT 
+
+2024-09-24 20:36:16 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:36:16 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:52 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:36:16 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:60 - X: 2 Y:3 
+
+2024-09-24 20:36:32 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:108 - PROGRAM EXIT 
+
+2024-09-24 20:36:32 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:36:32 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:52 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:36:32 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:60 - X: 2 Y:3 
+
+2024-09-24 20:36:55 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:108 - PROGRAM EXIT 
+
+2024-09-24 20:36:56 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:36:56 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:52 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:36:56 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:60 - X: 2 Y:3 
+
+2024-09-24 20:37:27 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:108 - PROGRAM EXIT 
+
+2024-09-24 20:37:28 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:37:28 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:52 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:37:28 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:60 - X: 2 Y:3 
+
+2024-09-24 20:37:41 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:108 - PROGRAM EXIT 
+
+2024-09-24 20:37:42 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:37:42 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:52 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:37:42 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:60 - X: 2 Y:3 
+
+2024-09-24 20:37:57 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:108 - PROGRAM EXIT 
+
+2024-09-24 20:37:58 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:37:58 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:52 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:37:58 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:60 - X: 2 Y:3 
+
+2024-09-24 20:38:27 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:108 - PROGRAM EXIT 
+
+2024-09-24 20:38:28 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:38:28 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:52 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:38:28 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:60 - X: 2 Y:3 
+
+2024-09-24 20:38:51 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:108 - PROGRAM EXIT 
+
+2024-09-24 20:39:42 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:39:42 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:39:42 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:59 - X: 2 Y:3 
+
+2024-09-24 20:40:34 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:107 - PROGRAM EXIT 
+
+2024-09-24 20:40:35 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:40:35 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:40:35 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:59 - X: 2 Y:3 
+
+2024-09-24 20:41:42 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:107 - PROGRAM EXIT 
+
+2024-09-24 20:41:42 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:41:42 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:41:42 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:59 - X: 2 Y:3 
+
+2024-09-24 20:42:01 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:107 - PROGRAM EXIT 
+
+2024-09-24 20:42:02 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:42:02 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:42:02 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:59 - X: 2 Y:3 
+
+2024-09-24 20:42:09 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:107 - PROGRAM EXIT 
+
+2024-09-24 20:42:10 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:42:10 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:42:10 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:59 - X: 2 Y:3 
+
+2024-09-24 20:42:46 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:107 - PROGRAM EXIT 
+
+2024-09-24 20:42:47 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:42:47 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:42:47 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:59 - X: 2 Y:3 
+
+2024-09-24 20:43:41 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:107 - PROGRAM EXIT 
+
+2024-09-24 20:43:42 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:43:42 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:43:42 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:59 - X: 2 Y:3 
+
+2024-09-24 20:43:52 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:107 - PROGRAM EXIT 
+
+2024-09-24 20:43:53 | INIT | c:\Programming\Python\cli-rpg\main.py:<module>:3 - LOGGER INITIALIZED 
+2024-09-24 20:43:53 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:51 - [['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0'], ['0', '0', '0', '0', '0', '0']] 
+
+2024-09-24 20:43:53 | DEBUG | c:\Programming\Python\cli-rpg\main.py:<module>:59 - X: 2 Y:3 
+

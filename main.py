@@ -1,4 +1,5 @@
 import logger
+from db import DB
 logger.logger_init()
 
 class Sprite:
@@ -7,8 +8,12 @@ class Sprite:
         self.y = y
         self.name = name
         
+        
+        
 player1 = Sprite(2, 3, "Jane Doe")    
-
+levels = DB("levels", 0)
+levels.create_table("player_map")
+levels.create_table("level_map")
 
 class MapController:
     def __init__(self, map):
@@ -22,6 +27,8 @@ class MapController:
     
     def set_value(self, x, y, value):
         self.map[y][x] = value
+        
+
 
 level_map = [
     ["0","0","0","0","0","0"],
@@ -40,7 +47,8 @@ player_map = [
     ["0","0","0","0","0","0"],
     ["0","0","0","0","0","0"],
 ]
-
+levels.append("player_map", str(player_map))
+logger.log(str(player_map))
 
 player_map_controller = MapController(player_map)
 level_map_controller = MapController(level_map)

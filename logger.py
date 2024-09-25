@@ -32,7 +32,7 @@ def logger_init():
     filename = sys._getframe(1).f_code.co_filename
     
     # Full string: year-month-day hour:minute:second | INIT | filename:function_name:line_number - LOGGER INITIALIZED
-    full_string = time_string + " "+"| INIT |"+" "+filename+":"+function_name+":"+str(line_number)+" - "+"LOGGER INITIALIZED \n"
+    full_string = f"{time_string} | INIT | {filename}:{function_name}:{str(line_number)} - LOGGER INITIALIZED \n"
     
     # Writes full string to logs
     with open("logs.txt", "a") as f:
@@ -67,7 +67,7 @@ def log(message):
     filename = sys._getframe(1).f_code.co_filename
     
     # Full string: year-month-day hour:minute:second | DEBUG | filename:function_name:line_number - LOGGER INITIALIZED
-    full_string = time_string + " "+"| DEBUG |"+" "+filename+":"+function_name+":"+str(line_number)+" - "+message
+    full_string = f"{time_string} | DEBUG | {filename}:{function_name}:{str(line_number)} - {message} \n"
     
     with open("logs.txt", "a") as f:
         f.write(full_string+"\n")
