@@ -28,7 +28,7 @@ def get_uuid():
     random_char = random.choice(string.ascii_letters)
     r_uuid = random_char + r_uuid
     return r_uuid
-class DB:
+class DB_DEPRECIATED:
     def __init__(self, name, encryption_level):
         self.db_name = name
         self.encryption_level = encryption_level
@@ -122,3 +122,15 @@ class DB:
                     f.writelines(tables)
             else:
                 os.remove(i)
+
+class DB:
+    def __init__(self, name):
+        self.db_name = name
+        self.db_path = f"{self.db_name}-INFO.txt"
+        if not os.path.isfile(self.db_path):
+            f = open(self.db_path, "x")
+        else:
+            data = open(self.db_path).readlines().strip("\n")
+            print(data)
+
+db = DB("users")
