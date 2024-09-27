@@ -123,14 +123,43 @@ class DB_DEPRECIATED:
             else:
                 os.remove(i)
 
+class Table:
+    def __init__(self, name, columns):
+        self.table_name = name
+        self.table_path = f"{self.table_name}.txt"
+        self.columns = columns
+        self.rows = []
+        if not os.path.isfile(self.table_path):
+            with open(self.table_path, "w") as f:
+                f.write(' '.join(columns))
+                
+        else:
+            data = open(self.table_path, "r").readlines()
+            self.columns = data[0].strip("\n").split(" ")
+            unformated_rows = data[1:]
+            for row in unformated_rows:
+                self.rows.append(row.strip("\n").split(" "))
+            print(self.rows)
+            print(self.columns)
+            
+
+
+
+table = Table("users", ["uname", "upwd"])
+
+
 class DB:
     def __init__(self, name):
         self.db_name = name
         self.db_path = f"{self.db_name}-INFO.txt"
+        self.tables = []
         if not os.path.isfile(self.db_path):
             f = open(self.db_path, "x")
         else:
-            data = open(self.db_path).readlines().strip("\n")
-            print(data)
+            
+            data = open(self.db_path, "r").readlines()
+            for i in data:
+                self.tables.append(i.strip("\n"))
+        # print(self.tables)
 
 db = DB("users")
