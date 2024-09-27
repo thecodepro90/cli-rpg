@@ -1,5 +1,4 @@
 import logger
-from db import DB
 logger.logger_init()
 
 class Sprite:
@@ -11,9 +10,6 @@ class Sprite:
         
         
 player1 = Sprite(2, 3, "Jane Doe")    
-levels = DB("levels", 0)
-levels.create_table("player_map")
-levels.create_table("level_map")
 
 class MapController:
     def __init__(self, map):
@@ -47,7 +43,6 @@ player_map = [
     ["0","0","0","0","0","0"],
     ["0","0","0","0","0","0"],
 ]
-levels.append("player_map", str(player_map))
 logger.log(str(player_map))
 
 player_map_controller = MapController(player_map)
@@ -76,6 +71,7 @@ try:
                     player_map_controller.set_value(x, y, level_map_controller.get_value(x, y))
                 
         player_map_controller.set_value(player1.x, player1.y, "1")
+        logger.log(player_map_controller.get_map())
         for i in player_map_controller.get_map():
             for j in i:
                 print(j+" ", end="")
@@ -103,7 +99,8 @@ try:
             player_map_controller.set_value(player1.x, player1.y, level_map_controller.get_value(player1.x, player1.y))
             player1.x += 1
             logger.log("D KEY PRESSED")
-except:
+except Exception as e:
+    logger.log(e)
     logger.log("PROGRAM EXIT")
         
     
