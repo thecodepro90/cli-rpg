@@ -139,21 +139,27 @@ class Table:
             unformated_rows = data[1:]
             for row in unformated_rows:
                 self.rows.append(row.strip("\n").split(" "))
-            print(self.rows)
-            print(self.columns)
+            # print(self.rows)
+            # print(self.columns)
             
     def get_row(self, row):
-        return self.rows[row]
+        if not row > len(self.rows)-1:
+            return self.rows[row]
+        else:
+            print("row doesnt exist", len(self.rows))
 
     def get_column(self, column):
-        for i, j in enumerate(self.columns):
-            if j == column:
-                column = i
-        columns = []
-        for row in self.rows:
-            columns.append(row[column])
-            
-        return columns
+        if not column in self.columns:
+            print("Column doesnt exist")
+        else: 
+            for i, j in enumerate(self.columns):
+                if j == column:
+                    column = i
+            columns = []
+            for row in self.rows:
+                columns.append(row[column])
+                
+            return columns
     
     def insert(self, data):
         if len(data) != len(self.columns):
@@ -162,12 +168,25 @@ class Table:
             with open(self.table_path, "a") as f:
                 f.write(f"\n{' '.join(data)}")
         
+    def update(self, row, data):
+        row += 1
+        if len(data) != len(self.columns):
+            print("Missing columns")
+        else:
+            with open(self.table_path, "r") as f:
+                lines = f.readlines()
+                lines[row] = ' '.join(data)+"\n"
+                with open(self.table_path, "w") as f:
+                    f.writelines(lines)
+        
             
                 
         
             
 
 table = Table("users", ["uname", "upwd"])
+print(table.get_row(0))
+
 
 class DB:
     def __init__(self, name):
