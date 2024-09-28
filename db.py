@@ -142,11 +142,25 @@ class Table:
             print(self.rows)
             print(self.columns)
             
+    def get_row(self, row):
+        return self.rows[row]
 
-
+    def get_column(self, column):
+        for i, j in enumerate(self.columns):
+            if j == column:
+                column = i
+        columns = []
+        for row in self.rows:
+            columns.append(row[column])
+            
+        return columns
+            
+                
+        
+            
 
 table = Table("users", ["uname", "upwd"])
-
+print(table.get_column("uname"))
 
 class DB:
     def __init__(self, name):
