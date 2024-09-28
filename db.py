@@ -4,7 +4,6 @@ import random
 import uuid
 import string
 
-
 def encrypt(data, encryption_level):
     e_data = data
     for i in range(encryption_level):
@@ -167,6 +166,7 @@ class Table:
         else:
             with open(self.table_path, "a") as f:
                 f.write(f"\n{' '.join(data)}")
+                self.rows.append(data)
         
     def update(self, row, data):
         row += 1
@@ -178,6 +178,10 @@ class Table:
                 lines[row] = ' '.join(data)+"\n"
                 with open(self.table_path, "w") as f:
                     f.writelines(lines)
+                    
+                self.rows[row-1] = data
+                    
+                
         
             
                 
@@ -185,8 +189,9 @@ class Table:
             
 
 table = Table("users", ["uname", "upwd"])
-print(table.get_row(0))
-
+print(table.rows)
+table.update(1, ["hell000o", "world"])
+print(table.rows)
 
 class DB:
     def __init__(self, name):
