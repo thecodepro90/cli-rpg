@@ -154,13 +154,20 @@ class Table:
             columns.append(row[column])
             
         return columns
+    
+    def insert(self, data):
+        if len(data) != len(self.columns):
+            print("Missing columns")
+        else:
+            with open(self.table_path, "a") as f:
+                f.write(f"\n{' '.join(data)}")
+        
             
                 
         
             
 
 table = Table("users", ["uname", "upwd"])
-print(table.get_column("uname"))
 
 class DB:
     def __init__(self, name):
